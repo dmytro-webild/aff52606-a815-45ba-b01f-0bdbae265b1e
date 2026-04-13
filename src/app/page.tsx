@@ -29,79 +29,50 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Technology",
-          id: "/technology",
-        },
+          name: "Technology",          id: "/technology"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
-      brandName="Decentralized Liquidity Inc"
+      brandName="Project Carbon Fiber"
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroCentered
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       title="Engineering the Future of Decentralized Liquidity"
       description="Private, high-throughput execution engines built for modern decentralized finance ecosystems."
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/blue-light-lines-dots-from-fiber-optic-wires-dark-background-computer-communications-idea-selective-focus-blur-dark-background_166373-1651.jpg",
-          alt: "Team member 1",
-        },
+          src: "http://img.b2bpic.net/free-photo/blue-light-lines-dots-from-fiber-optic-wires-dark-background-computer-communications-idea-selective-focus-blur-dark-background_166373-1651.jpg",          alt: "Team member 1"},
         {
-          src: "http://img.b2bpic.net/free-photo/blue-lights-long-exposure-technique_53876-144333.jpg",
-          alt: "Team member 2",
-        },
+          src: "http://img.b2bpic.net/free-photo/blue-lights-long-exposure-technique_53876-144333.jpg",          alt: "Team member 2"},
         {
-          src: "http://img.b2bpic.net/free-photo/3d-rendering-futuristic-sci-fi-techno-lights-background_181624-21133.jpg",
-          alt: "Team member 3",
-        },
+          src: "http://img.b2bpic.net/free-photo/3d-rendering-futuristic-sci-fi-techno-lights-background_181624-21133.jpg",          alt: "Team member 3"},
         {
-          src: "http://img.b2bpic.net/free-photo/traffic-light-trails-urban-street_1359-520.jpg",
-          alt: "Team member 4",
-        },
+          src: "http://img.b2bpic.net/free-photo/traffic-light-trails-urban-street_1359-520.jpg",          alt: "Team member 4"},
         {
-          src: "http://img.b2bpic.net/free-photo/3d-medical-background-wth-male-figure-running_1048-14657.jpg",
-          alt: "Team member 5",
-        },
+          src: "http://img.b2bpic.net/free-photo/3d-medical-background-wth-male-figure-running_1048-14657.jpg",          alt: "Team member 5"},
       ]}
       buttons={[
         {
-          text: "Request Access",
-          href: "/contact",
-        },
+          text: "Request Access",          href: "/contact"},
       ]}
       avatarText="Trusted by 500+ engineers globally"
       marqueeItems={[
         {
-          type: "text",
-          text: "Low Latency",
-        },
+          type: "text",          text: "Low Latency"},
         {
-          type: "text",
-          text: "Rust-powered",
-        },
+          type: "text",          text: "Rust-powered"},
         {
-          type: "text",
-          text: "DeFi Optimized",
-        },
+          type: "text",          text: "DeFi Optimized"},
         {
-          type: "text",
-          text: "Secure Execution",
-        },
+          type: "text",          text: "Secure Execution"},
         {
-          type: "text",
-          text: "Global Scale",
-        },
+          type: "text",          text: "Global Scale"},
       ]}
     />
   </div>
@@ -112,23 +83,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Low-Latency Execution",
-          description: "Utilizing Rust-based engines for sub-millisecond transaction speeds.",
-          imageSrc: "http://img.b2bpic.net/free-photo/blurred-light-trails-blue-tone_1359-645.jpg",
-          imageAlt: "Latency",
-        },
+          title: "Low-Latency Execution",          description: "Utilizing Rust-based engines for sub-millisecond transaction speeds.",          imageSrc: "http://img.b2bpic.net/free-photo/blurred-light-trails-blue-tone_1359-645.jpg",          imageAlt: "Latency"},
         {
-          title: "Real-time Data Analytics",
-          description: "Processing high-throughput blockchain telemetry.",
-          imageSrc: "http://img.b2bpic.net/free-photo/finger-pressing-digital-graphic_1134-293.jpg",
-          imageAlt: "Analytics",
-        },
+          title: "Real-time Data Analytics",          description: "Processing high-throughput blockchain telemetry.",          imageSrc: "http://img.b2bpic.net/free-photo/finger-pressing-digital-graphic_1134-293.jpg",          imageAlt: "Analytics"},
         {
-          title: "Scalable Infrastructure",
-          description: "Leveraging AWS Graviton architecture for efficient compute.",
-          imageSrc: "http://img.b2bpic.net/free-photo/programmer-walking-data-center-coding-laptop_482257-124794.jpg",
-          imageAlt: "Infrastructure",
-        },
+          title: "Scalable Infrastructure",          description: "Leveraging AWS Graviton architecture for efficient compute.",          imageSrc: "http://img.b2bpic.net/free-photo/programmer-walking-data-center-coding-laptop_482257-124794.jpg",          imageAlt: "Infrastructure"},
       ]}
       title="Core Infrastructure"
       description="Engineered for speed, reliability, and scale."
@@ -145,13 +104,9 @@ export default function LandingPage() {
       metricsAnimation="slide-up"
       metrics={[
         {
-          value: "0.4ms",
-          title: "Execution Latency",
-        },
+          value: "0.4ms",          title: "Execution Latency"},
         {
-          value: "99.99%",
-          title: "Uptime Guarantee",
-        },
+          value: "99.99%",          title: "Uptime Guarantee"},
       ]}
     />
   </div>
@@ -165,38 +120,16 @@ export default function LandingPage() {
       description="Enterprise-grade liquidity infrastructure tailored to your protocol's needs."
       plans={[
         {
-          id: "pro-plan",
-          tag: "Standard",
-          price: "$2,500",
-          period: "/mo",
-          description: "Ideal for growing DeFi protocols.",
-          button: {
-            text: "Get Started",
-            href: "/contact",
-          },
-          featuresTitle: "Included features",
-          features: [
-            "Standard support",
-            "Shared infrastructure",
-            "Basic analytics",
-          ],
+          id: "pro-plan",          tag: "Standard",          price: "$2,500",          period: "/mo",          description: "Ideal for growing DeFi protocols.",          button: {
+            text: "Get Started",            href: "/contact"},
+          featuresTitle: "Included features",          features: [
+            "Standard support",            "Shared infrastructure",            "Basic analytics"],
         },
         {
-          id: "enterprise-plan",
-          tag: "Enterprise",
-          price: "Custom",
-          period: "",
-          description: "High-volume execution for large protocols.",
-          button: {
-            text: "Contact Sales",
-            href: "/contact",
-          },
-          featuresTitle: "Premium features",
-          features: [
-            "Dedicated nodes",
-            "24/7 support",
-            "Custom integration",
-          ],
+          id: "enterprise-plan",          tag: "Enterprise",          price: "Custom",          period: "",          description: "High-volume execution for large protocols.",          button: {
+            text: "Contact Sales",            href: "/contact"},
+          featuresTitle: "Premium features",          features: [
+            "Dedicated nodes",            "24/7 support",            "Custom integration"],
         },
       ]}
     />
@@ -206,8 +139,7 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Newsletter"
       title="Stay Informed"
       description="Get the latest infrastructure updates delivered to your inbox."
@@ -218,29 +150,21 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About",
-              href: "/contact",
-            },
+              label: "About",              href: "/contact"},
             {
-              label: "Tech",
-              href: "/technology",
-            },
+              label: "Tech",              href: "/technology"},
           ],
         },
         {
-          title: "Social",
-          items: [
+          title: "Social",          items: [
             {
-              label: "LinkedIn",
-              href: "https://linkedin.com",
-            },
+              label: "LinkedIn",              href: "https://linkedin.com"},
           ],
         },
       ]}
-      bottomLeftText="Copyright 2026 Decentralized Liquidity Inc"
+      bottomLeftText="Copyright 2026 Project Carbon Fiber"
       bottomRightText="contact@yourdomain.com"
     />
   </div>

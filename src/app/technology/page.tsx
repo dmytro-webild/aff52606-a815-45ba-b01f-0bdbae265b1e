@@ -26,19 +26,13 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Technology",
-          id: "/technology",
-        },
+          name: "Technology",          id: "/technology"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
-      brandName="Decentralized Liquidity Inc"
+      brandName="Project Carbon Fiber"
     />
   </div>
 
@@ -50,17 +44,11 @@ export default function LandingPage() {
       description="We run on world-class cloud architecture. Our stacks are built on AWS EC2, utilizing VPC Peering and S3 buckets for secure, durable logging. Security is not just a feature—it is our foundation."
       bulletPoints={[
         {
-          title: "AWS Powered",
-          description: "Global availability using EC2 instances.",
-        },
+          title: "AWS Powered",          description: "Global availability using EC2 instances."},
         {
-          title: "VPC Secured",
-          description: "Isolated networks for maximum security.",
-        },
+          title: "VPC Secured",          description: "Isolated networks for maximum security."},
         {
-          title: "Durable Storage",
-          description: "S3 object storage for historical log processing.",
-        },
+          title: "Durable Storage",          description: "S3 object storage for historical log processing."},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/two-business-people-standing-server-room-with-laptop-discussing_662251-1526.jpg"
       mediaAnimation="slide-up"
@@ -77,15 +65,9 @@ export default function LandingPage() {
       description="Visualizing the throughput of our decentralized nodes."
       metrics={[
         {
-          id: "m1",
-          value: "1.2M",
-          description: "TPS Supported",
-        },
+          id: "m1",          value: "1.2M",          description: "TPS Supported"},
         {
-          id: "m2",
-          value: "50ms",
-          description: "Finality Time",
-        },
+          id: "m2",          value: "50ms",          description: "Finality Time"},
       ]}
     />
   </div>
@@ -94,29 +76,21 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About",
-              href: "/contact",
-            },
+              label: "About",              href: "/contact"},
             {
-              label: "Tech",
-              href: "/technology",
-            },
+              label: "Tech",              href: "/technology"},
           ],
         },
         {
-          title: "Social",
-          items: [
+          title: "Social",          items: [
             {
-              label: "LinkedIn",
-              href: "https://linkedin.com",
-            },
+              label: "LinkedIn",              href: "https://linkedin.com"},
           ],
         },
       ]}
-      bottomLeftText="Copyright 2026 Decentralized Liquidity Inc"
+      bottomLeftText="Copyright 2026 Project Carbon Fiber"
       bottomRightText="contact@yourdomain.com"
     />
   </div>

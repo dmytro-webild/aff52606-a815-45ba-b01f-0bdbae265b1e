@@ -26,19 +26,13 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Technology",
-          id: "/technology",
-        },
+          name: "Technology",          id: "/technology"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
-      brandName="Decentralized Liquidity Inc"
+      brandName="Project Carbon Fiber"
     />
   </div>
 
@@ -46,9 +40,8 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
-      text="Decentralized Liquidity Inc (North Carolina). Contact us at contact@yourdomain.com."
+        variant: "plain"}}
+      text="Project Carbon Fiber (North Carolina). Contact us at contact@yourdomain.com."
     />
   </div>
 
@@ -62,19 +55,9 @@ export default function LandingPage() {
       description="Experts in distributed systems and DeFi primitives."
       members={[
         {
-          id: "m1",
-          name: "Sarah Chen",
-          role: "Lead Architect",
-          description: "Ex-AWS infrastructure lead.",
-          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-suit-cope-arrangement-happiness_1134-978.jpg",
-        },
+          id: "m1",          name: "Sarah Chen",          role: "Lead Architect",          description: "Ex-AWS infrastructure lead.",          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-suit-cope-arrangement-happiness_1134-978.jpg"},
         {
-          id: "m2",
-          name: "Marcus Thorne",
-          role: "DevOps Engineer",
-          description: "Blockchain scaling specialist.",
-          imageSrc: "http://img.b2bpic.net/free-photo/it-staff-member-server-hub-establishing-performance-benchmarks_482257-124780.jpg",
-        },
+          id: "m2",          name: "Marcus Thorne",          role: "DevOps Engineer",          description: "Blockchain scaling specialist.",          imageSrc: "http://img.b2bpic.net/free-photo/it-staff-member-server-hub-establishing-performance-benchmarks_482257-124780.jpg"},
       ]}
     />
   </div>
@@ -83,29 +66,21 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About",
-              href: "/contact",
-            },
+              label: "About",              href: "/contact"},
             {
-              label: "Tech",
-              href: "/technology",
-            },
+              label: "Tech",              href: "/technology"},
           ],
         },
         {
-          title: "Social",
-          items: [
+          title: "Social",          items: [
             {
-              label: "LinkedIn",
-              href: "https://linkedin.com",
-            },
+              label: "LinkedIn",              href: "https://linkedin.com"},
           ],
         },
       ]}
-      bottomLeftText="Copyright 2026 Decentralized Liquidity Inc"
+      bottomLeftText="Copyright 2026 Project Carbon Fiber"
       bottomRightText="contact@yourdomain.com"
     />
   </div>
