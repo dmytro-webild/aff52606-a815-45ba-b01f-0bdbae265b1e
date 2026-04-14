@@ -90,9 +90,9 @@ export default function InquiryPage() {
         </div>
         <div id="footer" data-section="footer">
           <FooterSimple 
-             columns={[{ title: "", items: [{ label: "Home", href: "/" }]}]}
-             bottomLeftText=""
-             bottomRightText=""
+             columns={[{ title: "Navigation", items: [{ label: "Home", href: "/" }]}]}
+             bottomLeftText="© 2024 Project Carbon Fiber"
+             bottomRightText="All Rights Reserved"
           />
         </div>
       </ReactLenis>
