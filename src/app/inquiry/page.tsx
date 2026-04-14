@@ -7,7 +7,7 @@ import FooterSimple from '@/components/sections/footer/FooterSimple';
 import React, { useState } from 'react';
 
 export default function InquiryPage() {
-  const [formData, setFormData] = useState({ name: '', email: '', phone: '', topic: 'general' });
+  const [formData, setFormData] = useState({ name: '', email: '', phone: '', product: 'solana-infra' });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -44,11 +44,16 @@ export default function InquiryPage() {
             <input type="text" placeholder="Name" className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, name: e.target.value})} />
             <input type="email" placeholder="Email" className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, email: e.target.value})} />
             <input type="tel" placeholder="Phone Number" className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, phone: e.target.value})} />
-            <select className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, topic: e.target.value})}>
-              <option value="solana-infra">Access to custom Solana Infrastructure</option>
-              <option value="trading-bots">Access to custom Trading Bots</option>
-              <option value="general">General Inquiries</option>
-            </select>
+            <div className="flex flex-col gap-2">
+              <label className="font-medium">Product Interested In</label>
+              <select 
+                className="w-full p-3 border rounded bg-black text-white"
+                onChange={(e) => setFormData({...formData, product: e.target.value})}
+              >
+                <option value="solana-infra">Access to custom Solana Infrastructure</option>
+                <option value="trading-bots">Access to custom Trading Bots</option>
+              </select>
+            </div>
             <button type="submit" className="w-full bg-blue-600 text-white p-3 rounded font-bold">Submit</button>
           </form>
         </div>
