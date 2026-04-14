@@ -10,8 +10,8 @@ import { Montserrat } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'Decentralized Liquidity Inc | Infrastructure',
-  description: 'Engineering high-throughput decentralized liquidity systems on AWS.',
+  title: "Project Carbon Fiber",
+  description: "Engineering high-throughput decentralized liquidity systems on AWS.",
   openGraph: {
     "title": "Decentralized Liquidity Inc",
     "description": "High-performance DeFi infrastructure.",
