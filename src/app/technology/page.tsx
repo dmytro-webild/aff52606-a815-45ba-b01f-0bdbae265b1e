@@ -87,7 +87,7 @@ export default function LandingPage() {
             {
               label: "Tech",              href: "/technology"},
             {
-              label: "info@projectcarbonfiber.com",              href: "mailto:info@projectcarbonfiber.com"}
+              label: "info@projectcarbonfiber.com"}
           ],
         },
         {
