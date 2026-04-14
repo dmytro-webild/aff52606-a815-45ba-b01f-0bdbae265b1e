@@ -55,9 +55,9 @@ export default function LandingPage() {
       description="Experts in distributed systems and DeFi primitives."
       members={[
         {
-          id: "m1",          name: "Sarah Chen",          role: "Co-Founder",          description: "Lead Systems Architect ",          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-suit-cope-arrangement-happiness_1134-978.jpg"},
+          id: "m1",          name: "Noah Braun",          role: "Co-Founder",          description: "Lead Systems Architect ",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1776192347167-tp82gh00.jpg"},
         {
-          id: "m2",          name: "Marcus Thorne",          role: "Co-Founder ",          description: "Lead Front End Developer",          imageSrc: "http://img.b2bpic.net/free-photo/it-staff-member-server-hub-establishing-performance-benchmarks_482257-124780.jpg"},
+          id: "m2",          name: "Patrick DeBiase",          role: "Co-Founder ",          description: "Lead Front End Developer",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1776192547141-dkhwgsxw.jpg"},
       ]}
       imageClassName="scale-75"
     />
