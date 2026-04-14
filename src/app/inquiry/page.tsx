@@ -62,7 +62,7 @@ export default function InquiryPage() {
           <FooterSimple 
              columns={[{ title: "", items: [{ label: "Home", href: "/" }]}]} 
              bottomLeftText="Copyright 2026 Project Carbon Fiber" 
-             bottomRightText="All rights reserved"
+             bottomRightText="hello@example.com"
           />
         </div>
       </ReactLenis>
