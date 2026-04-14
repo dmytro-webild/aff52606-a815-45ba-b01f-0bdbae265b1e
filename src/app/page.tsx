@@ -79,7 +79,7 @@ export default function LandingPage() {
 
   <div id="features" data-section="features">
       <FeatureCardSix
-      textboxLayout="default"
+      textboxLayout="split-actions"
       useInvertedBackground={false}
       features={[
         {
