@@ -45,7 +45,7 @@ export default function LandingPage() {
         { title: "VPC Secured", description: "Isolated networks for maximum security." },
         { title: "Durable Storage", description: "S3 object storage for historical log processing." },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/two-business-people-standing-server-room-with-laptop-discussing_662251-1526.jpg?w=600&h=400"
+      imageSrc="http://img.b2bpic.net/free-photo/two-business-people-standing-server-room-with-laptop-discussing_662251-1526.jpg?w=2400&h=1600"
       mediaAnimation="slide-up"
     />
   </div>
