@@ -40,11 +40,11 @@ export default function LandingPage() {
       title="Engineering the Future of Decentralized Liquidity"
       description="Private, high-throughput execution engines built for modern decentralized finance ecosystems."
       avatars={[
-        { src: "http://img.b2bpic.net/free-photo/blue-light-lines-dots-from-fiber-optic-wires-dark-background-computer-communications-idea-selective-focus-blur-dark-background_166373-1651.jpg", alt: "Team member 1" },
-        { src: "http://img.b2bpic.net/free-photo/blue-lights-long-exposure-technique_53876-144333.jpg", alt: "Team member 2" },
-        { src: "http://img.b2bpic.net/free-photo/3d-rendering-futuristic-sci-fi-techno-lights-background_181624-21133.jpg", alt: "Team member 3" },
-        { src: "http://img.b2bpic.net/free-photo/traffic-light-trails-urban-street_1359-520.jpg", alt: "Team member 4" },
-        { src: "http://img.b2bpic.net/free-photo/3d-medical-background-wth-male-figure-running_1048-14657.jpg", alt: "Team member 5" },
+        { src: "http://img.b2bpic.net/free-photo/blue-light-lines-dots-from-fiber-optic-wires-dark-background-computer-communications-idea-selective-focus-blur-dark-background_166373-1651.jpg?w=100&h=100", alt: "Team member 1" },
+        { src: "http://img.b2bpic.net/free-photo/blue-lights-long-exposure-technique_53876-144333.jpg?w=100&h=100", alt: "Team member 2" },
+        { src: "http://img.b2bpic.net/free-photo/3d-rendering-futuristic-sci-fi-techno-lights-background_181624-21133.jpg?w=100&h=100", alt: "Team member 3" },
+        { src: "http://img.b2bpic.net/free-photo/traffic-light-trails-urban-street_1359-520.jpg?w=100&h=100", alt: "Team member 4" },
+        { src: "http://img.b2bpic.net/free-photo/3d-medical-background-wth-male-figure-running_1048-14657.jpg?w=100&h=100", alt: "Team member 5" },
       ]}
       buttons={[
         { text: "Request Access", href: "/inquiry" },
@@ -64,9 +64,9 @@ export default function LandingPage() {
       textboxLayout="split-actions"
       useInvertedBackground={false}
       features={[
-        { title: "Low-Latency Execution", description: "Utilizing Rust-based engines for sub-millisecond transaction speeds.", imageSrc: "http://img.b2bpic.net/free-photo/blurred-light-trails-blue-tone_1359-645.jpg", imageAlt: "Latency" },
-        { title: "Real-time Data Analytics", description: "Processing high-throughput blockchain telemetry.", imageSrc: "http://img.b2bpic.net/free-photo/finger-pressing-digital-graphic_1134-293.jpg", imageAlt: "Analytics" },
-        { title: "Scalable Infrastructure", description: "Leveraging AWS Graviton architecture for efficient compute.", imageSrc: "http://img.b2bpic.net/free-photo/programmer-walking-data-center-coding-laptop_482257-124794.jpg", imageAlt: "Infrastructure" },
+        { title: "Low-Latency Execution", description: "Utilizing Rust-based engines for sub-millisecond transaction speeds.", imageSrc: "http://img.b2bpic.net/free-photo/blurred-light-trails-blue-tone_1359-645.jpg?w=400&h=300", imageAlt: "Latency" },
+        { title: "Real-time Data Analytics", description: "Processing high-throughput blockchain telemetry.", imageSrc: "http://img.b2bpic.net/free-photo/finger-pressing-digital-graphic_1134-293.jpg?w=400&h=300", imageAlt: "Analytics" },
+        { title: "Scalable Infrastructure", description: "Leveraging AWS Graviton architecture for efficient compute.", imageSrc: "http://img.b2bpic.net/free-photo/programmer-walking-data-center-coding-laptop_482257-124794.jpg?w=400&h=300", imageAlt: "Infrastructure" },
       ]}
       title="Core Infrastructure"
       description="Engineered for speed, reliability, and scale."
@@ -78,7 +78,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Unmatched Performance"
       description="Our systems process trillions of data points with near-zero overhead."
-      imageSrc="http://img.b2bpic.net/free-photo/server-infrastructure-systems-delivering-ai-automation-cloud-storage_482257-124360.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/server-infrastructure-systems-delivering-ai-automation-cloud-storage_482257-124360.jpg?w=600&h=400"
       metrics={[
         { value: "0.4ms", title: "Execution Latency" },
         { value: "99.99%", title: "Uptime Guarantee" },
