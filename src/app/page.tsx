@@ -8,7 +8,6 @@ import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroCentered from '@/components/sections/hero/HeroCentered';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
-import PricingCardFive from '@/components/sections/pricing/PricingCardFive';
 
 export default function LandingPage() {
   return (
@@ -105,30 +104,6 @@ export default function LandingPage() {
           value: "0.4ms",          title: "Execution Latency"},
         {
           value: "99.99%",          title: "Uptime Guarantee"},
-      ]}
-    />
-  </div>
-
-  <div id="pricing" data-section="pricing">
-      <PricingCardFive
-      animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={false}
-      title="Flexible Scaling"
-      description="Enterprise-grade liquidity infrastructure tailored to your protocol's needs."
-      plans={[
-        {
-          id: "pro-plan",          tag: "Standard",          price: "$2,500",          period: "/mo",          description: "Ideal for growing DeFi protocols.",          button: {
-            text: "Get Started",            href: "/contact"},
-          featuresTitle: "Included features",          features: [
-            "Standard support",            "Shared infrastructure",            "Basic analytics"],
-        },
-        {
-          id: "enterprise-plan",          tag: "Enterprise",          price: "Custom",          period: "",          description: "High-volume execution for large protocols.",          button: {
-            text: "Contact Sales",            href: "/contact"},
-          featuresTitle: "Premium features",          features: [
-            "Dedicated nodes",            "24/7 support",            "Custom integration"],
-        },
       ]}
     />
   </div>
