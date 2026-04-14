@@ -54,6 +54,7 @@ export default function LandingPage() {
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/two-business-people-standing-server-room-with-laptop-discussing_662251-1526.jpg"
       mediaAnimation="slide-up"
+      imageClassName="scale-75"
     />
   </div>
 
