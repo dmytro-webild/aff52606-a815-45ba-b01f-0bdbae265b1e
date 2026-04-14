@@ -73,7 +73,7 @@ export default function LandingPage() {
             {
               label: "Contact",              href: "/contact"},
             {
-              label: "hello@example.com",              href: "mailto:hello@example.com"}
+              label: "info@projectcarbonfiber.com"}
           ],
         },
         {
