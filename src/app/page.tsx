@@ -73,6 +73,7 @@ export default function LandingPage() {
         {
           type: "text",          text: "Global Scale"},
       ]}
+      avatarGroupClassName="scale-75"
     />
   </div>
 
@@ -90,6 +91,7 @@ export default function LandingPage() {
       ]}
       title="Core Infrastructure"
       description="Engineered for speed, reliability, and scale."
+      imageClassName="scale-75"
     />
   </div>
 
@@ -107,6 +109,7 @@ export default function LandingPage() {
         {
           value: "99.99%",          title: "Uptime Guarantee"},
       ]}
+      imageClassName="scale-75"
     />
   </div>
 

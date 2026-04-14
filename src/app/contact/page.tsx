@@ -59,6 +59,7 @@ export default function LandingPage() {
         {
           id: "m2",          name: "Marcus Thorne",          role: "DevOps Engineer",          description: "Blockchain scaling specialist.",          imageSrc: "http://img.b2bpic.net/free-photo/it-staff-member-server-hub-establishing-performance-benchmarks_482257-124780.jpg"},
       ]}
+      imageClassName="scale-75"
     />
   </div>
 
