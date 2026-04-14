@@ -112,13 +112,13 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Company",          items: [
+          title: "",          items: [
             {
               label: "About",              href: "/contact"},
           ],
         },
         {
-          title: "Social",          items: [
+          title: "",          items: [
             {
               label: "LinkedIn",              href: "https://linkedin.com"},
           ],
