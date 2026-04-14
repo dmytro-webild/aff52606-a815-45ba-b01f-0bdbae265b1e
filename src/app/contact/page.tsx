@@ -41,7 +41,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "plain"}}
-      text="Project Carbon Fiber (North Carolina). Contact us at contact@yourdomain.com."
+      text="Project Carbon Fiber info@projectcarbonfiber.com."
     />
   </div>
 
@@ -55,9 +55,9 @@ export default function LandingPage() {
       description="Experts in distributed systems and DeFi primitives."
       members={[
         {
-          id: "m1",          name: "Sarah Chen",          role: "Lead Architect",          description: "Ex-AWS infrastructure lead.",          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-suit-cope-arrangement-happiness_1134-978.jpg"},
+          id: "m1",          name: "Sarah Chen",          role: "Co-Founder",          description: "Lead Systems Architect ",          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-suit-cope-arrangement-happiness_1134-978.jpg"},
         {
-          id: "m2",          name: "Marcus Thorne",          role: "DevOps Engineer",          description: "Blockchain scaling specialist.",          imageSrc: "http://img.b2bpic.net/free-photo/it-staff-member-server-hub-establishing-performance-benchmarks_482257-124780.jpg"},
+          id: "m2",          name: "Marcus Thorne",          role: "Co-Founder ",          description: "Lead Front End Developer",          imageSrc: "http://img.b2bpic.net/free-photo/it-staff-member-server-hub-establishing-performance-benchmarks_482257-124780.jpg"},
       ]}
       imageClassName="scale-75"
     />
