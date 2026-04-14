@@ -30,6 +30,8 @@ export default function LandingPage() {
         {
           name: "Home",          id: "/"},
         {
+          name: "Inquiry",          id: "/inquiry"},
+        {
           name: "Contact",          id: "/contact"},
       ]}
       brandName="Project Carbon Fiber"
@@ -56,7 +58,7 @@ export default function LandingPage() {
       ]}
       buttons={[
         {
-          text: "Request Access",          href: "/contact"},
+          text: "Request Access",          href: "/inquiry"},
       ]}
       avatarText=""
       marqueeItems={[
@@ -114,7 +116,9 @@ export default function LandingPage() {
         {
           title: "",          items: [
             {
-              label: "About",              href: "/contact"},
+              label: "Inquiry",              href: "/inquiry"},
+            {
+              label: "Contact",              href: "/contact"},
           ],
         },
         {
