@@ -52,6 +52,7 @@ export default function InquiryPage() {
               >
                 <option value="solana-infra">Access to custom Solana Infrastructure</option>
                 <option value="trading-bots">Access to custom Trading Bots</option>
+                <option value="market-data">Access to Custom Market Data</option>
               </select>
             </div>
             <button type="submit" className="w-full bg-blue-600 text-white p-3 rounded font-bold">Submit</button>
