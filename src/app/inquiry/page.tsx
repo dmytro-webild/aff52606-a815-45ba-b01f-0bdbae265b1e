@@ -19,16 +19,21 @@ export default function InquiryPage() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'Accept': 'application/json'
         },
         body: JSON.stringify(formData),
       });
 
+      const data = await response.json();
+
       if (response.ok) {
         setStatus('success');
       } else {
+        console.error('Form submission error:', data);
         setStatus('error');
       }
     } catch (error) {
+      console.error('Network error:', error);
       setStatus('error');
     }
   };
