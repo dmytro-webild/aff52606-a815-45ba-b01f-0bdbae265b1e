@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
-import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
+import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 
 export default function LandingPage() {
@@ -23,16 +23,12 @@ export default function LandingPage() {
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
-      <NavbarStyleFullscreen
+      <NavbarStyleCentered
       navItems={[
-        {
-          name: "Home",          id: "/"},
-        {
-          name: "Technology",          id: "/technology"},
-        {
-          name: "Inquiry",          id: "/inquiry"},
-        {
-          name: "Contact",          id: "/contact"},
+        { name: "Home", id: "/" },
+        { name: "Technology", id: "/technology" },
+        { name: "Inquiry", id: "/inquiry" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="Project Carbon Fiber"
     />
@@ -45,16 +41,12 @@ export default function LandingPage() {
       title="Our Infrastructure"
       description="We run on world-class cloud architecture. Our stacks are built on AWS EC2, utilizing VPC Peering and S3 buckets for secure, durable logging. Security is not just a feature—it is our foundation."
       bulletPoints={[
-        {
-          title: "AWS Powered",          description: "Global availability using EC2 instances."},
-        {
-          title: "VPC Secured",          description: "Isolated networks for maximum security."},
-        {
-          title: "Durable Storage",          description: "S3 object storage for historical log processing."},
+        { title: "AWS Powered", description: "Global availability using EC2 instances." },
+        { title: "VPC Secured", description: "Isolated networks for maximum security." },
+        { title: "Durable Storage", description: "S3 object storage for historical log processing." },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/two-business-people-standing-server-room-with-laptop-discussing_662251-1526.jpg"
       mediaAnimation="slide-up"
-      imageClassName="scale-75"
     />
   </div>
 
@@ -67,10 +59,8 @@ export default function LandingPage() {
       title="Network Capacity"
       description="Visualizing the throughput of our decentralized nodes."
       metrics={[
-        {
-          id: "m1",          value: "1.2M",          description: "TPS Supported"},
-        {
-          id: "m2",          value: "50ms",          description: "Finality Time"},
+        { id: "m1", value: "1.2M", description: "TPS Supported" },
+        { id: "m2", value: "50ms", description: "Finality Time" },
       ]}
     />
   </div>
@@ -78,25 +68,11 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterSimple
       columns={[
-        {
-          title: "Company",          items: [
-            {
-              label: "Inquiry",              href: "/inquiry"},
-            {
-              label: "Contact",              href: "/contact"},
-            {
-              label: "Tech",              href: "/technology"},
-          ],
-        },
-        {
-          title: "Social",          items: [
-            {
-              label: "LinkedIn",              href: "https://www.linkedin.com/company/project-carbon-fiber"},
-          ],
-        },
+        { title: "Company", items: [{ label: "Inquiry", href: "/inquiry" }, { label: "Contact", href: "/contact" }, { label: "Tech", href: "/technology" }] },
+        { title: "Social", items: [{ label: "LinkedIn", href: "https://www.linkedin.com/company/project-carbon-fiber" }] },
       ]}
-      bottomLeftText="Copyright 2026 Project Carbon Fiber"
-      bottomRightText="info@projectcarbonfiber.com"
+      bottomLeftText=""
+      bottomRightText=""
     />
   </div>
       </ReactLenis>
