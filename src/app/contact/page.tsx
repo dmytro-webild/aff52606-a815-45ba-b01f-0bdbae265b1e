@@ -41,7 +41,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "plain"}}
-      text="Project Carbon Fiber info@projectcarbonfiber.com."
+      text="Project Carbon Fiber"
     />
   </div>
 
@@ -82,7 +82,7 @@ export default function LandingPage() {
         },
       ]}
       bottomLeftText="Copyright 2026 Project Carbon Fiber"
-      bottomRightText="contact@projectcarbonfiber.com"
+      bottomRightText=""
     />
   </div>
       </ReactLenis>
