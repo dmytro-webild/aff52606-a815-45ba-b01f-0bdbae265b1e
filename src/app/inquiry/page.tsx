@@ -38,9 +38,9 @@ export default function InquiryPage() {
             brandName="Project Carbon Fiber"
           />
         </div>
-        <div className="container mx-auto py-20 px-4 min-h-[60vh]">
+        <div className="flex flex-col items-center justify-center min-h-[60vh] py-20 px-4">
           <h1 className="text-4xl font-bold mb-8">Submit an Inquiry</h1>
-          <form onSubmit={handleSubmit} className="max-w-md space-y-4">
+          <form onSubmit={handleSubmit} className="w-full max-w-md space-y-4">
             <input type="text" placeholder="Name" className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, name: e.target.value})} />
             <input type="email" placeholder="Email" className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, email: e.target.value})} />
             <input type="tel" placeholder="Phone Number" className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, phone: e.target.value})} />
