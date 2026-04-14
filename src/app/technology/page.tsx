@@ -30,6 +30,8 @@ export default function LandingPage() {
         {
           name: "Technology",          id: "/technology"},
         {
+          name: "Inquiry",          id: "/inquiry"},
+        {
           name: "Contact",          id: "/contact"},
       ]}
       brandName="Project Carbon Fiber"
@@ -78,7 +80,9 @@ export default function LandingPage() {
         {
           title: "Company",          items: [
             {
-              label: "About",              href: "/contact"},
+              label: "Inquiry",              href: "/inquiry"},
+            {
+              label: "Contact",              href: "/contact"},
             {
               label: "Tech",              href: "/technology"},
           ],
