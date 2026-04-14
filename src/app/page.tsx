@@ -127,7 +127,7 @@ export default function LandingPage() {
         {
           title: "",          items: [
             {
-              label: "LinkedIn",              href: "https://linkedin.com"},
+              label: "LinkedIn",              href: "https://www.linkedin.com/company/project-carbon-fiber"},
           ],
         },
       ]}
