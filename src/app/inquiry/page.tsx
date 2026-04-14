@@ -3,7 +3,6 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
-import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import React, { useState } from 'react';
 
@@ -57,6 +56,7 @@ export default function InquiryPage() {
           <FooterSimple 
              columns={[{ title: "Links", items: [{ label: "Home", href: "/" }]}]} 
              bottomLeftText="Copyright 2026 Project Carbon Fiber" 
+             bottomRightText="All rights reserved"
           />
         </div>
       </ReactLenis>
