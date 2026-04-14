@@ -59,7 +59,7 @@ export default function LandingPage() {
         {
           text: "Request Access",          href: "/contact"},
       ]}
-      avatarText="Trusted by 500+ engineers globally"
+      avatarText=""
       marqueeItems={[
         {
           type: "text",          text: "Low Latency"},
