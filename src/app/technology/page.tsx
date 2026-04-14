@@ -87,7 +87,7 @@ export default function LandingPage() {
             {
               label: "Tech",              href: "/technology"},
             {
-              label: "hello@example.com",              href: "mailto:hello@example.com"}
+              label: "hello@example.com"}
           ],
         },
         {
