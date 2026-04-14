@@ -57,7 +57,7 @@ export default function LandingPage() {
         {
           id: "m1",          name: "Noah Braun",          role: "Co-Founder",          description: "Lead Systems Architect ",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1776192347167-tp82gh00.jpg"},
         {
-          id: "m2",          name: "Patrick DeBiase",          role: "Co-Founder ",          description: "Lead Front End Developer",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1776192547141-dkhwgsxw.jpg"},
+          id: "m2",          name: "Patrick DeBiase",          role: "Co-Founder ",          description: "Lead Front End Developer",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1776192914378-1mhmooxi.jpg"},
       ]}
       imageClassName="scale-75"
     />
