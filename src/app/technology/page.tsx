@@ -71,8 +71,8 @@ export default function LandingPage() {
         { title: "Company", items: [{ label: "Inquiry", href: "/inquiry" }, { label: "Contact", href: "/contact" }, { label: "Tech", href: "/technology" }] },
         { title: "Social", items: [{ label: "LinkedIn", href: "https://www.linkedin.com/company/project-carbon-fiber" }] },
       ]}
-      bottomLeftText="© 2024 Project Carbon Fiber"
-      bottomRightText="All Rights Reserved"
+      bottomLeftText=""
+      bottomRightText=""
     />
   </div>
       </ReactLenis>
