@@ -50,8 +50,8 @@ export default function LandingPage() {
       title="Meet the Team"
       description="Experts in distributed systems and DeFi primitives."
       members={[
-        { id: "m1", name: "Noah Braun", role: "Co-Founder", description: "Lead Systems Architect ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1776192347167-tp82gh00.jpg" },
-        { id: "m2", name: "Patrick DeBiase", role: "Co-Founder ", description: "Lead Front End Developer", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1776192914378-1mhmooxi.jpg" },
+        { id: "m1", name: "Noah Braun", role: "Co-Founder", description: "Lead Systems Architect ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1776192347167-tp82gh00.jpg?w=200&h=200" },
+        { id: "m2", name: "Patrick DeBiase", role: "Co-Founder ", description: "Lead Front End Developer", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CJnQJYMSiA6jhejhdDXPX2Rx55/uploaded-1776192914378-1mhmooxi.jpg?w=200&h=200" },
       ]}
     />
   </div>
