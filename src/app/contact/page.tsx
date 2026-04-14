@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
-import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
+import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 
 export default function LandingPage() {
@@ -23,13 +23,14 @@ export default function LandingPage() {
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
-      <NavbarStyleCentered
+      <NavbarStyleFullscreen
       navItems={[
         { name: "Home", id: "/" },
         { name: "Inquiry", id: "/inquiry" },
         { name: "Contact", id: "/contact" },
       ]}
       brandName="Project Carbon Fiber"
+      logoAlt="Project Carbon Fiber Logo"
     />
   </div>
 
