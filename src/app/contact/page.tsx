@@ -59,11 +59,11 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterSimple
       columns={[
-        { title: "", items: [{ label: "Inquiry", href: "/inquiry" }, { label: "Contact", href: "/contact" }] },
-        { title: "", items: [{ label: "LinkedIn", href: "https://www.linkedin.com/company/project-carbon-fiber" }] },
+        { title: "Navigation", items: [{ label: "Inquiry", href: "/inquiry" }, { label: "Contact", href: "/contact" }] },
+        { title: "Social", items: [{ label: "LinkedIn", href: "https://www.linkedin.com/company/project-carbon-fiber" }] },
       ]}
-      bottomLeftText=""
-      bottomRightText=""
+      bottomLeftText="© 2024 Project Carbon Fiber"
+      bottomRightText="All Rights Reserved"
     />
   </div>
       </ReactLenis>
