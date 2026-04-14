@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
+import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import React, { useState } from 'react';
 
@@ -48,7 +48,7 @@ export default function InquiryPage() {
     >
       <ReactLenis root>
         <div id="nav" data-section="nav">
-          <NavbarStyleFullscreen
+          <NavbarStyleCentered
             navItems={[
               { name: "Home", id: "/" },
               { name: "Inquiry", id: "/inquiry" },
@@ -91,8 +91,8 @@ export default function InquiryPage() {
         <div id="footer" data-section="footer">
           <FooterSimple 
              columns={[{ title: "", items: [{ label: "Home", href: "/" }]}]}
-             bottomLeftText="Copyright 2026 Project Carbon Fiber" 
-             bottomRightText="info@projectcarbonfiber.com"
+             bottomLeftText=""
+             bottomRightText=""
           />
         </div>
       </ReactLenis>
