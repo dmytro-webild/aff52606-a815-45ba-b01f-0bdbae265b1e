@@ -96,7 +96,7 @@ export default function LandingPage() {
         },
       ]}
       bottomLeftText="Copyright 2026 Project Carbon Fiber"
-      bottomRightText="hello@example.com"
+      bottomRightText="info@projectcarbonfiber.com"
     />
   </div>
       </ReactLenis>
