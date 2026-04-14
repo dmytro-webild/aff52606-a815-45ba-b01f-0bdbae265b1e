@@ -50,8 +50,8 @@ export default function InquiryPage() {
                 className="w-full p-3 border rounded bg-black text-white"
                 onChange={(e) => setFormData({...formData, product: e.target.value})}
               >
-                <option value="solana-infra">Access to custom Solana Infrastructure</option>
-                <option value="trading-bots">Access to custom Trading Bots</option>
+                <option value="solana-infra">Access to Custom Solana Infrastructure</option>
+                <option value="trading-bots">Access to Custom Trading Bots</option>
                 <option value="market-data">Access to Custom Market Data</option>
               </select>
             </div>
