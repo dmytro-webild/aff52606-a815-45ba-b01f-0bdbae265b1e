@@ -64,9 +64,9 @@ export default function LandingPage() {
       textboxLayout="split-actions"
       useInvertedBackground={false}
       features={[
-        { title: "Low-Latency Execution", description: "Utilizing Rust-based engines for sub-millisecond transaction speeds.", imageSrc: "http://img.b2bpic.net/free-photo/blurred-light-trails-blue-tone_1359-645.jpg?w=1600&h=1200", imageAlt: "Latency" },
-        { title: "Real-time Data Analytics", description: "Processing high-throughput blockchain telemetry.", imageSrc: "http://img.b2bpic.net/free-photo/finger-pressing-digital-graphic_1134-293.jpg?w=1600&h=1200", imageAlt: "Analytics" },
-        { title: "Scalable Infrastructure", description: "Leveraging AWS Graviton architecture for efficient compute.", imageSrc: "http://img.b2bpic.net/free-photo/programmer-walking-data-center-coding-laptop_482257-124794.jpg?w=1600&h=1200", imageAlt: "Infrastructure" },
+        { title: "Low-Latency Execution", description: "Utilizing Rust-based engines for sub-millisecond transaction speeds.", imageSrc: "https://img.b2bpic.net/premium-photo/digital-abstract-representation-data-streams-binary-code-vibrant-colors_110373-14137.jpg?id=371859633", imageAlt: "Latency" },
+        { title: "Real-time Data Analytics", description: "Processing high-throughput blockchain telemetry.", imageSrc: "https://img.b2bpic.net/free-photo/business-people-discussing-results-successful-teamwork_1421-95.jpg?id=1211592", imageAlt: "Analytics" },
+        { title: "Scalable Infrastructure", description: "Leveraging AWS Graviton architecture for efficient compute.", imageSrc: "https://img.b2bpic.net/premium-photo/screens-data-wall_1019429-2472.jpg?id=232510402", imageAlt: "Infrastructure" },
       ]}
       title="Core Infrastructure"
       description="Engineered for speed, reliability, and scale."
@@ -78,7 +78,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Unmatched Performance"
       description="Our systems process trillions of data points with near-zero overhead."
-      imageSrc="http://img.b2bpic.net/free-photo/server-infrastructure-systems-delivering-ai-automation-cloud-storage_482257-124360.jpg?w=2400&h=1600"
+      imageSrc="https://img.b2bpic.net/premium-photo/business-intelligence-dashboard-big-data-diagram-graph-virtual-screen-economic-analysis-investment-finance-marketing-planning-business-intelligence-bi-concept_55997-5460.jpg?id=169308737"
       metrics={[
         { value: "0.4ms", title: "Execution Latency" },
         { value: "99.99%", title: "Uptime Guarantee" },
