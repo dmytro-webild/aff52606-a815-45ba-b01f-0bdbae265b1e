@@ -135,17 +135,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="contact" data-section="contact">
-      <ContactCenter
-      useInvertedBackground={false}
-      background={{
-        variant: "plain"}}
-      tag="Newsletter"
-      title="Stay Informed"
-      description="Get the latest infrastructure updates delivered to your inbox."
-    />
-  </div>
-
   <div id="footer" data-section="footer">
       <FooterSimple
       columns={[
