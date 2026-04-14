@@ -60,7 +60,7 @@ export default function InquiryPage() {
         </div>
         <div id="footer" data-section="footer">
           <FooterSimple 
-             columns={[{ title: "Links", items: [{ label: "Home", href: "/" }]}]} 
+             columns={[{ title: "", items: [{ label: "Home", href: "/" }]}]} 
              bottomLeftText="Copyright 2026 Project Carbon Fiber" 
              bottomRightText="All rights reserved"
           />
