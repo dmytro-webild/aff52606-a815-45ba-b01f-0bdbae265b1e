@@ -24,12 +24,9 @@ export default function InquiryPage() {
         body: JSON.stringify(formData),
       });
 
-      const data = await response.json();
-
       if (response.ok) {
         setStatus('success');
       } else {
-        console.error('Form submission error:', data);
         setStatus('error');
       }
     } catch (error) {
@@ -68,9 +65,9 @@ export default function InquiryPage() {
               <div className="text-center p-8 bg-green-500/10 border border-green-500 rounded">Thank you for your inquiry. We will be in touch soon.</div>
           ) : (
             <form onSubmit={handleSubmit} className="w-full max-w-md space-y-4">
-              <input type="text" placeholder="Name" className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, name: e.target.value})} required />
-              <input type="email" placeholder="Email" className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, email: e.target.value})} required />
-              <input type="tel" placeholder="Phone Number" className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, phone: e.target.value})} />
+              <input type="text" placeholder="Name" className="w-full p-3 border rounded bg-transparent" onChange={(e) => setFormData({...formData, name: e.target.value})} required />
+              <input type="email" placeholder="Email" className="w-full p-3 border rounded bg-transparent" onChange={(e) => setFormData({...formData, email: e.target.value})} required />
+              <input type="tel" placeholder="Phone Number" className="w-full p-3 border rounded bg-transparent" onChange={(e) => setFormData({...formData, phone: e.target.value})} />
               <div className="flex flex-col gap-2">
                 <label className="font-medium">Product Interested In</label>
                 <select 
@@ -89,7 +86,7 @@ export default function InquiryPage() {
               >
                 {status === 'submitting' ? 'Sending...' : 'Submit'}
               </button>
-              {status === 'error' && <p className="text-red-500 text-sm">Something went wrong. Please try again.</p>}
+              {status === 'error' && <p className="text-red-500 text-sm">Something went wrong. Please check your connection and try again.</p>}
             </form>
           )}
         </div>
