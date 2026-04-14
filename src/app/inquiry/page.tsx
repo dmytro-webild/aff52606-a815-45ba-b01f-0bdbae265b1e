@@ -8,10 +8,29 @@ import React, { useState } from 'react';
 
 export default function InquiryPage() {
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', product: 'solana-infra' });
+  const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
+    setStatus('submitting');
+    
+    try {
+      const response = await fetch('https://formspree.io/f/mqazkweo', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setStatus('success');
+      } else {
+        setStatus('error');
+      }
+    } catch (error) {
+      setStatus('error');
+    }
   };
 
   return (
@@ -40,27 +59,38 @@ export default function InquiryPage() {
         </div>
         <div className="flex flex-col items-center justify-center min-h-[60vh] py-20 px-4">
           <h1 className="text-4xl font-bold mb-8">Submit an Inquiry</h1>
-          <form onSubmit={handleSubmit} className="w-full max-w-md space-y-4">
-            <input type="text" placeholder="Name" className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, name: e.target.value})} />
-            <input type="email" placeholder="Email" className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, email: e.target.value})} />
-            <input type="tel" placeholder="Phone Number" className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, phone: e.target.value})} />
-            <div className="flex flex-col gap-2">
-              <label className="font-medium">Product Interested In</label>
-              <select 
-                className="w-full p-3 border rounded bg-black text-white"
-                onChange={(e) => setFormData({...formData, product: e.target.value})}
+          {status === 'success' ? (
+              <div className="text-center p-8 bg-green-500/10 border border-green-500 rounded">Thank you for your inquiry. We will be in touch soon.</div>
+          ) : (
+            <form onSubmit={handleSubmit} className="w-full max-w-md space-y-4">
+              <input type="text" placeholder="Name" className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, name: e.target.value})} required />
+              <input type="email" placeholder="Email" className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, email: e.target.value})} required />
+              <input type="tel" placeholder="Phone Number" className="w-full p-3 border rounded" onChange={(e) => setFormData({...formData, phone: e.target.value})} />
+              <div className="flex flex-col gap-2">
+                <label className="font-medium">Product Interested In</label>
+                <select 
+                  className="w-full p-3 border rounded bg-black text-white"
+                  onChange={(e) => setFormData({...formData, product: e.target.value})}
+                >
+                  <option value="solana-infra">Access to Custom Solana Infrastructure</option>
+                  <option value="trading-bots">Access to Custom Trading Bots</option>
+                  <option value="market-data">Access to Custom Market Data</option>
+                </select>
+              </div>
+              <button 
+                type="submit" 
+                disabled={status === 'submitting'} 
+                className="w-full bg-blue-600 text-white p-3 rounded font-bold disabled:opacity-50"
               >
-                <option value="solana-infra">Access to Custom Solana Infrastructure</option>
-                <option value="trading-bots">Access to Custom Trading Bots</option>
-                <option value="market-data">Access to Custom Market Data</option>
-              </select>
-            </div>
-            <button type="submit" className="w-full bg-blue-600 text-white p-3 rounded font-bold">Submit</button>
-          </form>
+                {status === 'submitting' ? 'Sending...' : 'Submit'}
+              </button>
+              {status === 'error' && <p className="text-red-500 text-sm">Something went wrong. Please try again.</p>}
+            </form>
+          )}
         </div>
         <div id="footer" data-section="footer">
           <FooterSimple 
-             columns={[{ title: "", items: [{ label: "Home", href: "/" }]}]} 
+             columns={[{ title: "", items: [{ label: "Home", href: "/" }]}]}
              bottomLeftText="Copyright 2026 Project Carbon Fiber" 
              bottomRightText="info@projectcarbonfiber.com"
           />
